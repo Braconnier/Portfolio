@@ -31,8 +31,8 @@ body.dark .btn-toggle {
 }
 .btn-toggle {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 5rem;
+  right: 1rem;
   width: 100px;
   height: 50px;
   margin: auto 1rem;
@@ -47,11 +47,16 @@ body.dark .btn-toggle {
   cursor: pointer;
   transition: clip-path 0.3s ease;
 }
+.btn-toggle:hover {
+  transform: scale(1.1);
+}
 body.dark .btn-toggle {
   -webkit-clip-path: polygon(40% 0, 100% 60%, 60% 100%, 0 40%);
   clip-path: polygon(40% 0, 100% 60%, 60% 100%, 0 40%);
 }
-
+.left__side {
+  margin-left: 1.5rem;
+}
 body.dark .project__title .btn {
   border: 1px solid #ddd;
 }
@@ -229,3 +234,27 @@ footer {
   text-align: center;
   margin-top: 4em;
 }
+@media screen and (max-width: 1040px) {
+  .main__content {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 920px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .left__side {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .projects {
+    margin: auto;
+  }
+}
+/* @media screen and (max-width: 380px) {
+  .btn-toggle {
+    top: 5rem;
+  }
+} */
