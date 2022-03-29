@@ -40,7 +40,7 @@ main {
   width: auto;
   height: 400px;
   margin: 0.5em auto;
-  overflow: clip;
+  overflow: scroll;
 }
 .img__container > img {
   width: 100%;
