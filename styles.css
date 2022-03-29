@@ -69,24 +69,6 @@ body.dark .title {
   box-shadow: 1px 5px 10px #000;
 }
 
-/* .polygon {
-  border-radius: 50%;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-  padding: 1rem;
-  background-color: rgb(76, 132, 204);
-  background-image: #ff99e4;
-  background-image: radial-gradient(
-      at 61% 34%,
-      hsla(193, 64%, 75%, 1) 0,
-      transparent 50%
-    ),
-    radial-gradient(at 31% 46%, hsla(350, 62%, 71%, 1) 0, transparent 54%),
-    radial-gradient(at 84% 57%, hsla(59, 79%, 63%, 1) 0, transparent 53%),
-    radial-gradient(at 8% 78%, hsla(162, 84%, 70%, 1) 0, transparent 41%),
-    radial-gradient(at 62% 15%, hsla(333, 84%, 70%, 1) 0, transparent 55%),
-    radial-gradient(at 74% 7%, hsla(188, 79%, 63%, 1) 0, transparent 57%);
-} */
 .project {
   padding: 0.5rem;
   box-shadow: 1px 5px 10px #aaa;

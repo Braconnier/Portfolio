@@ -8,11 +8,26 @@ const render = async () => {
                 challengesHtml += `<li>${challenge.value}</li>`
             });
             document.querySelector('.highlights').innerHTML = `
-            <aside class="title">${reservia.name}</aside>
-            <div>${reservia.description}</div>
-            <ul>${challengesHtml}</ul>
-            <a href="${reservia.url}" target="_blank" noopener noreferrer>Lien Github</a>`
-            console.log(reservia);
+                <div class="about">
+                    <div class="title">
+                        <h1>Projet</h1>
+                        ${reservia.name}
+                    </div>
+                    <div class="description">
+                        <h2>Description</h2>
+                        <div>${reservia.description}</div>
+                    </div>
+                    <ul>${challengesHtml}</ul>
+                    <h3>Lien Github
+                        <a href="${reservia.url}" target="_blank" noopener noreferrer>
+                            <span class="icon">
+                                <i class="fab fa-github-square"></i>
+                            </span>
+                        </a>
+                    </h3>
+                    </div>
+                    <div class="line"></div>
+                `
         })
 }
 render()
