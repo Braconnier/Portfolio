@@ -2,20 +2,20 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  height: calc(100vh - 1rem);
+  height: calc(100vh-2rem);
 }
 .underline {
   margin-left: 3em;
-  margin-top: 1em;
-  border-bottom: 2px solid #0065fc;
-  width: 30%;
+  margin-top: 0.5em;
+  border-bottom: 1px solid #0065fc;
+  width: 40%;
 }
 .highlights {
   display: flex;
   flex-flow: row nowrap;
 }
 .line {
-  width: 2px;
+  width: 1px;
   height: 50vh;
   margin-top: 20%;
   margin-left: 3rem;
@@ -59,6 +59,10 @@ header {
   font-weight: bold;
 }
 footer {
-  text-align: center;
-  margin: auto;
+  width: 75%;
+  border-top: 1px solid #0065fc;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem auto;
 }
