@@ -9,10 +9,6 @@ const render = async () => {
             });
             document.querySelector('.highlights').innerHTML = `
                 <div class="about">
-                    <div class="title">
-                        <h1>Projet</h1>
-                        ${reservia.name}
-                    </div>
                     <div class="description">
                         <h2>Description</h2>
                         <div>${reservia.description}</div>
