@@ -42,6 +42,7 @@ main {
   display: grid;
   grid-auto-rows: 1fr;
   grid-template-areas: 'D' 'img' 'img';
+  padding-bottom: 2rem;
 }
 .card:first-of-type {
   border-right: 1px dashed #0065fc;
@@ -83,9 +84,6 @@ footer {
     grid-template-areas:
       'one'
       'two';
-  }
-  .card {
-    padding-bottom: 2rem;
   }
   .card:first-of-type {
     border-right: none;
