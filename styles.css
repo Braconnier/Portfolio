@@ -216,6 +216,9 @@ h5 {
 .myself {
   display: inline-block;
 }
+.contact {
+  text-decoration: underline;
+}
 .main {
   display: grid;
   grid-template-columns: 1fr 3fr;
