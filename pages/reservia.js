@@ -1,3 +1,6 @@
+window.addEventListener('load', render())
+
+
 const render = async () => {
     await fetch("../assets/data.json")
         .then(response => response.json())
@@ -26,4 +29,3 @@ const render = async () => {
                 `
         })
 }
-render()
