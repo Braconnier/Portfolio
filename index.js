@@ -19,12 +19,12 @@ async function render() {
                                             <h3>${project.name}</h3>
                                             <h4 class="description">${project.description}</h4>
                                             <div class="line"></div>
-                                        </div>
-                                    </a>
-                                    <div class="open-btn btn" title="info">i</div>
-                                    <dialog class="project__body modal">
-                                        <div class="close-btn btn">x</div>
-                                        <h5>
+                                            </div>
+                                            </a>
+                                            <div class="open-btn btn" title="info">i</div>
+                                            <dialog class="project__body modal">
+                                            <div class="close-btn btn">x</div>
+                                            <h5>
                                         ${project.name}
                                         <br />
                                         <br />
@@ -33,36 +33,12 @@ async function render() {
                                         <br />
                                         ${challengesHtml}
                                         </h5>
-                                    </dialog>
-                                </article>`
+                                        </dialog>
+                                        </article>`
                 html += projectHtml
             })
             document.querySelector('.main__content').innerHTML = html
         });
-
-
-    const btnToggle = document.querySelector('.btn-toggle');
-
-    btnToggle.addEventListener('click', () => {
-
-        const body = document.body;
-
-        if (body.classList.contains('dark')) {
-
-            body.classList.add('light')
-            body.classList.remove('dark')
-            btnToggle.innerHTML = "dark"
-
-        } else if (body.classList.contains('light')) {
-
-            body.classList.add('dark')
-            body.classList.remove('light')
-            btnToggle.innerHTML = "light"
-
-        }
-
-    })
-
 
     document.querySelectorAll('.open-btn').forEach(el => {
 
@@ -77,7 +53,31 @@ async function render() {
             modal.close();
         })
     });
+
 }
+const btnToggle = document.querySelector('.btn-toggle');
+
+btnToggle.addEventListener('click', () => {
+
+    const body = document.body;
+
+    if (body.classList.contains('dark')) {
+
+        body.classList.add('light')
+        body.classList.remove('dark')
+        btnToggle.innerHTML = "dark"
+
+    } else if (body.classList.contains('light')) {
+
+        body.classList.add('dark')
+        body.classList.remove('light')
+        btnToggle.innerHTML = "light"
+
+    }
+
+})
+
+
 
 
 
