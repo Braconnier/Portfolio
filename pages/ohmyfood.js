@@ -1,4 +1,6 @@
-const render = async () => {
+window.addEventListener('DOMContentLoaded', render())
+
+async function render() {
     await fetch("../assets/data.json")
         .then(response => response.json())
         .then(jsondata => {

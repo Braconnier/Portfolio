@@ -1,3 +1,6 @@
+:root {
+  --primary: #0065fc;
+}
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -7,7 +10,7 @@ body {
 .underline {
   margin-left: 3rem;
   margin-top: 1rem;
-  border-bottom: 1px solid #0065fc;
+  border-bottom: 1px solid var(--primary);
   width: 30%;
 }
 .highlights {
@@ -16,11 +19,13 @@ body {
   min-width: 20%;
 }
 .line {
-  width: 1px;
+  position: sticky;
+  top: 2rem;
+  width: 2px;
   height: 50vh;
   margin-top: 20%;
   margin-left: 3rem;
-  background-color: #0065fc;
+  background-color: var(--primary);
 }
 a {
   text-decoration: none;
@@ -46,7 +51,7 @@ main {
   padding-bottom: 2rem;
 }
 .card:first-of-type {
-  border-right: 1px dashed #0065fc;
+  border-right: 1px dashed var(--primary);
 }
 .description {
   grid-area: D;
@@ -56,8 +61,8 @@ main {
   grid-area: img;
 }
 .img__container {
-  height: 570px;
-  width: auto;
+  height: 400px;
+  width: 300px;
   margin: auto;
 }
 .img__container > img {
@@ -74,7 +79,7 @@ header {
 }
 footer {
   width: 75%;
-  border-top: 1px solid #0065fc;
+  border-top: 1px solid var(--primary);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -88,7 +93,7 @@ footer {
   }
   .card:first-of-type {
     border-right: none;
-    border-bottom: 1px dashed #0065fc;
+    border-bottom: 1px dashed var(--primary);
   }
 }
 @media screen and (max-width: 680px) {
@@ -99,6 +104,6 @@ footer {
     display: none;
   }
   .highlights {
-    border-bottom: 1px solid #0065fc;
+    border-bottom: 1px solid var(--primary);
   }
 }

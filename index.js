@@ -1,4 +1,4 @@
-window.addEventListener('load', render())
+window.addEventListener('DOMContentLoaded', render())
 
 async function render() {
     await fetch("./assets/data.json")
