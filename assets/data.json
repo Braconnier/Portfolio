@@ -63,7 +63,7 @@
       "description": "Construire une API sécurisée",
       "url": "https://github.com/Braconnier/P6_cedric_camman",
       "localUrl": "./pages/piiquante.html",
-      "constraints": "aucune contrainte particulière",
+      "constraints": "Base de données MongoDB",
       "challenges": [
         {
           "value": "Implémenter un modèle logique de données conformément à la réglementation"
@@ -77,7 +77,7 @@
       "description": "Créer un réseau social d'entreprise",
       "url": "https://github.com/Braconnier/P7_cedric_camman",
       "localUrl": "./pages/groupomania.html",
-      "constraints": "La base de données est en SQL, la partie Front-end doit être réalisée avec un framework (React, Vue, Angular, Ember, Meteor, Aurelia...),  le projet doit être codé en Javascript",
+      "constraints": "La base de données est en SQL<br>La partie Front-end doit être réalisée avec un framework (React, Vue, Angular, Ember, Meteor, Aurelia...)<br>Le projet doit être codé en Javascript<br>Les pages doivent respecter les standards WCAG",
       "challenges": [
         { "value": "Personnaliser le contenu envoyé à un client web" },
         { "value": "Stocker des données de manière sécurisée" },

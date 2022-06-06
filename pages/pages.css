@@ -69,7 +69,7 @@ main {
 }
 .img__container {
   height: 400px;
-  width: 320px;
+  /* width: 320px; */
   margin: auto;
 }
 .img__container > img {
