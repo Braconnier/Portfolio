@@ -20,13 +20,9 @@
       "challenges": [
         { "value": "Mettre en place son environnement Front-End" },
         { "value": "Assurer la cohérence graphique d'un site web" },
-        {
-          "value": "Mettre en place une structure de navigation pour un site web"
-        },
+        { "value": "Mettre en place une structure de navigation pour un site web" },
         { "value": "Mettre en œuvre des effets CSS graphiques avancés" },
-        {
-          "value": "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"
-        }
+        { "value": "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement" }
       ]
     },
     {
@@ -38,9 +34,7 @@
       "challenges": [
         { "value": "Optimiser le référencement d'un site web" },
         { "value": "Écrire un code HTML et CSS maintenable" },
-        {
-          "value": "Réaliser une recherche des bonnes pratiques en développement web"
-        },
+        { "value": "Réaliser une recherche des bonnes pratiques en développement web" },
         { "value": "Optimiser la taille et la vitesse d’un site web" },
         { "value": "Assurer l'accessibilité d'un site web" }
       ]
@@ -65,9 +59,7 @@
       "localUrl": "./pages/piiquante.html",
       "constraints": "Base de données MongoDB",
       "challenges": [
-        {
-          "value": "Implémenter un modèle logique de données conformément à la réglementation"
-        },
+        { "value": "Implémenter un modèle logique de données conformément à la réglementation"},
         { "value": "Stocker des données de manière sécurisée" },
         { "value": "Mettre en œuvre des opérations CRUD de manière sécurisée" }
       ]
@@ -82,9 +74,7 @@
         { "value": "Personnaliser le contenu envoyé à un client web" },
         { "value": "Stocker des données de manière sécurisée" },
         { "value": "Gérer un stockage de données à l'aide de SQL" },
-        {
-          "value": "Implémenter un stockage de données sécurisé en utilisant SQL"
-        }
+        { "value": "Implémenter un stockage de données sécurisé en utilisant SQL" }
       ]
     }
   ]
