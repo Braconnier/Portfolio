@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
 }
 body.dark * {
@@ -84,7 +84,7 @@ body.dark .title {
   background-color: #999;
 }
 .project__title::before {
-  content: '';
+  content: "";
   background: rgb(221, 221, 221);
   background: linear-gradient(
     180deg,
@@ -161,7 +161,7 @@ body.dark .project .btn {
 }
 
 .modal::backdrop {
-  background-image: url('./assets/Marble-Background.png');
+  background-image: url("./assets/Marble-Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
