@@ -1,3 +1,14 @@
 :root {
-  --primary: #ffd7d7;
+  --primary: hsl(0, 100%, 83%);
+  --secondary: hsl(0, 100%, 93%);
+  color: #333;
+}
+a {
+  color: #333;
+}
+@media screen and (min-width: 1512px) {
+  img {
+    width: auto;
+    height: 100%;
+  }
 }

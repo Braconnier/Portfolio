@@ -45,14 +45,14 @@ body.dark .btn-toggle {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: clip-path 0.3s ease;
-}
-.btn-toggle:hover {
-  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 body.dark .btn-toggle {
   -webkit-clip-path: polygon(40% 0, 100% 60%, 60% 100%, 0 40%);
   clip-path: polygon(40% 0, 100% 60%, 60% 100%, 0 40%);
+}
+.btn-toggle:hover {
+  transform: scale(1.1);
 }
 .left__side {
   margin-left: 1.5rem;

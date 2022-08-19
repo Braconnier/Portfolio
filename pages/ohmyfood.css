@@ -1,22 +1,16 @@
 :root {
-  --primary: rgba(147, 86, 220, 0.5);
-  --secondary: rgba(255, 121, 218, 0.5);
+  --primary: hsl(267, 66%, 60%);
+  --secondary: hsl(267, 100%, 70%);
 }
-.img__container > img {
-  transition: all 0.3s ease-in-out;
+@media screen and (min-width: 380px) {
+  .small {
+    width: auto;
+    height: 100%;
+  }
 }
-.img__container > img:hover {
-  scale: 1.5;
-  border-radius: 1em;
-  padding: 1rem;
-  background: linear-gradient(
-    0deg,
-    var(--primary) 0%,
-    var(--primary) 20%,
-    var(--secondary) 100%
-  );
-  text-align: center;
-}
-.line {
-  height: 70vh;
+@media screen and (min-width: 1374px) {
+  img {
+    width: auto;
+    height: 100%;
+  }
 }

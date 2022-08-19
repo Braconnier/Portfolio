@@ -1,6 +1,11 @@
 :root {
-  --primary: #f3976c;
+  --primary: hsl(20, 85%, 70%);
+  --secondary: hsl(20, 85%, 60%);
 }
-.line {
-  height: 70vh;
+
+@media screen and (min-width: 1334px) {
+  img {
+    width: auto;
+    height: 100%;
+  }
 }

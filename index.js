@@ -1,19 +1,18 @@
-window.addEventListener('DOMContentLoaded', render())
+window.addEventListener("DOMContentLoaded", render());
 
 async function render() {
-    await fetch("./assets/data.json")
-        .then(response => response.json())
-        .then(data => {
-            const projects = data.projects
-            let html = ''
-            projects.forEach(project => {
+  await fetch("./assets/data.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const projects = data.projects;
+      let html = "";
+      projects.forEach((project) => {
+        let challengesHtml = "";
+        project.challenges.forEach((challenge) => {
+          challengesHtml += `<br/>${challenge.value}<br/>`;
+        });
 
-                let challengesHtml = ''
-                project.challenges.forEach(challenge => {
-                    challengesHtml += `<br/>${challenge.value}<br/>`
-                })
-
-                projectHtml = `<article class="project">
+        projectHtml = `<article class="project">
                                     <a href="${project.localUrl}" class="project__title">
                                         <div class="project__title__container">
                                             <h3>${project.name}</h3>
@@ -34,52 +33,37 @@ async function render() {
                                         ${challengesHtml}
                                         </h5>
                                         </dialog>
-                                        </article>`
-                html += projectHtml
-            })
-            document.querySelector('.main__content').innerHTML = html
-        });
-
-    document.querySelectorAll('.open-btn').forEach(el => {
-
-        const modal = el.parentElement.lastElementChild;
-        const closeModal = modal.firstChild.nextSibling;
-
-        el.addEventListener('click', () => {
-            modal.showModal()
-        });
-
-        closeModal.addEventListener('click', () => {
-            modal.close();
-        })
+                                        </article>`;
+        html += projectHtml;
+      });
+      document.querySelector(".main__content").innerHTML = html;
     });
 
+  document.querySelectorAll(".open-btn").forEach((el) => {
+    const modal = el.parentElement.lastElementChild;
+    const closeModal = modal.firstChild.nextSibling;
+
+    el.addEventListener("click", () => {
+      modal.showModal();
+    });
+
+    closeModal.addEventListener("click", () => {
+      modal.close();
+    });
+  });
 }
-const btnToggle = document.querySelector('.btn-toggle');
+const btnToggle = document.querySelector(".btn-toggle");
 
-btnToggle.addEventListener('click', () => {
+btnToggle.addEventListener("click", () => {
+  const body = document.body;
 
-    const body = document.body;
-
-    if (body.classList.contains('dark')) {
-
-        body.classList.add('light')
-        body.classList.remove('dark')
-        btnToggle.innerHTML = "dark"
-
-    } else if (body.classList.contains('light')) {
-
-        body.classList.add('dark')
-        body.classList.remove('light')
-        btnToggle.innerHTML = "light"
-
-    }
-
-})
-
-
-
-
-
-
-
+  if (body.classList.contains("dark")) {
+    body.classList.add("light");
+    body.classList.remove("dark");
+    btnToggle.innerHTML = "dark";
+  } else if (body.classList.contains("light")) {
+    body.classList.add("dark");
+    body.classList.remove("light");
+    btnToggle.innerHTML = "light";
+  }
+});

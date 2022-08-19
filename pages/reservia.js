@@ -1,19 +1,19 @@
-window.addEventListener('DOMContentLoaded', render())
+window.addEventListener("DOMContentLoaded", render());
 
 async function render() {
-    await fetch("../assets/data.json")
-        .then(response => response.json())
-        .then(jsondata => {
-            const reservia = jsondata.projects[0];
-            let challengesHtml = '';
-            reservia.challenges.forEach(challenge => {
-                challengesHtml += `<li>${challenge.value}</li>`
-            });
-            document.querySelector('.highlights').innerHTML = `
+  await fetch("../assets/data.json")
+    .then((response) => response.json())
+    .then((jsondata) => {
+      const reservia = jsondata.projects[0];
+      let challengesHtml = "";
+      reservia.challenges.forEach((challenge) => {
+        challengesHtml += `<li>${challenge.value}</li>`;
+      });
+      document.querySelector(".highlights").innerHTML = `
         <div class="about">
             <div class="aside__description">
                 <h2>Description</h2>
-                <div>${reservia.description}</div>
+                <div class="aside__description--summary">${reservia.description}</div>
             </div>
             <ul>${challengesHtml}</ul>
             <h3>Lien Github
@@ -26,6 +26,6 @@ async function render() {
             <h4 class="constraints">contrainte(s): ${reservia.constraints}</h4>
             </div>
         <div class="line"></div>
-        `
-        })
+        `;
+    });
 }

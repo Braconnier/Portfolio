@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+:root {
+  --primary: hsl(216, 100%, 50%);
+  --secondary: hsl(216, 100%, 60%);
+  background-color: var(--primary);
+  color: #eee;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.img__container {
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+header {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.highlights {
+  padding: 2rem 0;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.aside__description--summary {
+  margin: 1rem auto;
+}
+.about {
+  width: 90%;
+  margin-inline: auto;
+}
+.about li {
+  margin: 0.5rem auto;
+}
+.about li::before {
+  content: "- ";
+}
+.about h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+a {
+  color: #ddd;
+}
+.constraints {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: black;
+}
+.main {
+  width: 90%;
+  margin-inline: auto;
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+}
+.card {
+  padding-top: 1rem;
+}
+.description p {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 1rem;
+}
+.description p:first-of-type {
+  margin-top: 0;
+}
+footer {
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+  line-height: 2;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.last {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 626px) {
+  .small {
+    width: auto;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  img {
+    width: auto;
+    height: 100%;
+  }
+}

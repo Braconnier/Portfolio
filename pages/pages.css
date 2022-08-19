@@ -2,7 +2,7 @@
   --primary: #0065fc;
 }
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   height: calc(100vh - 2rem);
@@ -49,12 +49,12 @@ main {
   display: grid;
   gap: 1rem;
   grid-auto-columns: 1fr;
-  grid-template-areas: 'one two';
+  grid-template-areas: "one two";
 }
 .card {
   display: grid;
   grid-auto-rows: 1fr;
-  grid-template-areas: 'D' 'img' 'img';
+  grid-template-areas: "D" "img" "img";
   padding-bottom: 2rem;
 }
 .card:first-of-type {
@@ -69,7 +69,6 @@ main {
 }
 .img__container {
   height: 400px;
-  /* width: 320px; */
   margin: auto;
 }
 .img__container > img {
@@ -95,8 +94,8 @@ footer {
 @media screen and (max-width: 1400px) {
   .main {
     grid-template-areas:
-      'one'
-      'two';
+      "one"
+      "two";
   }
   .card:first-of-type {
     border-right: none;

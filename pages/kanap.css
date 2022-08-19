@@ -1,6 +1,16 @@
 :root {
-  --primary: #3498db;
+  --primary: hsl(204, 70%, 53%);
+  --secondary: hsl(204, 70%, 63%);
 }
-.img__container {
-  width: 100%;
+.description h3,
+.description h4 {
+  width: 90%;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 1600px) {
+  img {
+    width: auto;
+    height: 100%;
+  }
 }

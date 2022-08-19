@@ -1,3 +1,10 @@
 :root {
-  --primary: #000;
+  --primary: hsl(0, 0%, 20%);
+  --secondary: hsl(0, 0%, 30%);
+}
+@media screen and (min-width: 1380px) {
+  img {
+    width: auto;
+    height: 100%;
+  }
 }

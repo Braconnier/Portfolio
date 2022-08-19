@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "1 - Reservia",
-      "description": "Transformer une maquette en site web avec HTML & CSS",
+      "description": "Transformer une maquette en site web avec HTML & CSS :",
       "url": "https://braconnier.github.io/CedricCamman_2_12072021/",
       "localUrl": "./pages/reservia.html",
       "constraints": "HTML et CSS uniquement",
@@ -13,35 +13,41 @@
     },
     {
       "name": "2 - Ohmyfood!",
-      "description": "Dynamiser une page web avec des animations CSS",
+      "description": "Dynamiser une page web avec des animations CSS :",
       "url": "https://braconnier.github.io/CedricCamman_3_26072021/",
       "localUrl": "./pages/ohmyfood.html",
       "constraints": "HTML et CSS/SCSS uniquement",
       "challenges": [
         { "value": "Mettre en place son environnement Front-End" },
         { "value": "Assurer la cohérence graphique d'un site web" },
-        { "value": "Mettre en place une structure de navigation pour un site web" },
+        {
+          "value": "Mettre en place une structure de navigation pour un site web"
+        },
         { "value": "Mettre en œuvre des effets CSS graphiques avancés" },
-        { "value": "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement" }
+        {
+          "value": "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"
+        }
       ]
     },
     {
       "name": "3 - La chouette agence",
-      "description": "Optimiser un site web existant",
+      "description": "Optimiser un site web existant :",
       "url": "https://braconnier.github.io/CedricCamman_4_05092021/",
       "localUrl": "./pages/lachouetteagenge.html",
       "constraints": "aucune contrainte particulière",
       "challenges": [
         { "value": "Optimiser le référencement d'un site web" },
         { "value": "Écrire un code HTML et CSS maintenable" },
-        { "value": "Réaliser une recherche des bonnes pratiques en développement web" },
+        {
+          "value": "Réaliser une recherche des bonnes pratiques en développement web"
+        },
         { "value": "Optimiser la taille et la vitesse d’un site web" },
         { "value": "Assurer l'accessibilité d'un site web" }
       ]
     },
     {
       "name": "4 - Kanap",
-      "description": "Construire un site de e-commerce en Javascript",
+      "description": "Construire un site de e-commerce en Javascript :",
       "url": "https://github.com/Braconnier/CedricCamman_5_30092021",
       "localUrl": "./pages/kanap.html",
       "constraints": "Javascript vanilla",
@@ -54,19 +60,21 @@
     },
     {
       "name": "5 - Piiquante",
-      "description": "Construire une API sécurisée",
+      "description": "Construire une API sécurisée :",
       "url": "https://github.com/Braconnier/P6_cedric_camman",
       "localUrl": "./pages/piiquante.html",
       "constraints": "Base de données MongoDB",
       "challenges": [
-        { "value": "Implémenter un modèle logique de données conformément à la réglementation"},
+        {
+          "value": "Implémenter un modèle logique de données conformément à la réglementation"
+        },
         { "value": "Stocker des données de manière sécurisée" },
         { "value": "Mettre en œuvre des opérations CRUD de manière sécurisée" }
       ]
     },
     {
       "name": "6 - Groupomania",
-      "description": "Créer un réseau social d'entreprise",
+      "description": "Créer un réseau social d'entreprise :",
       "url": "https://github.com/Braconnier/P7_cedric_camman",
       "localUrl": "./pages/groupomania.html",
       "constraints": "La base de données est en SQL<br>La partie Front-end doit être réalisée avec un framework (React, Vue, Angular, Ember, Meteor, Aurelia...)<br>Le projet doit être codé en Javascript<br>Les pages doivent respecter les standards WCAG",
@@ -74,7 +82,9 @@
         { "value": "Personnaliser le contenu envoyé à un client web" },
         { "value": "Stocker des données de manière sécurisée" },
         { "value": "Gérer un stockage de données à l'aide de SQL" },
-        { "value": "Implémenter un stockage de données sécurisé en utilisant SQL" }
+        {
+          "value": "Implémenter un stockage de données sécurisé en utilisant SQL"
+        }
       ]
     }
   ]
