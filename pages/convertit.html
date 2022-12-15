@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="POEC PHP SYMFONY POO wild code school convertitsseur d'images"/>
+
+		<link rel="stylesheet" href="pages_v2.css"/>
+		<link rel="stylesheet" href="convertit.css"/>
+		<link rel="shortcut icon" href="../assets/projets/POEC/logo.svg" type="image/x-icon"/>
+		<title>POEC PHP POO SYMFONY</title>
+	</head>
+	<body>
+		<header>
+			<h1>
+				ConvertIt!
+				<div class="underline"></div>
+			</h1>
+		</header>
+		<main>
+			<aside class="highlights"></aside>
+			<section class="main">
+				<article class="card">
+					<div class="description">
+						<h2>Contexte :</h2>
+						<p>- Réaliser, en groupe,  une application ustilisant le framework symfony.</p>
+						<p>- Utilisation de Git, Trello, Figma et des méthodes agiles.</p>
+						<p>- Le choix s'est porter sur une application communautaire de conversion d'images (png jpeg webp).</p>
+						<p>- La BDD est en mysql et la géstion se fera grace à Doctrine, le MVP est peuplé en utilisant fakerPHP et les fixtures.
+						</p>
+					</div>
+					<div class="img__container">
+						<img src="../assets/projets/POEC/convertit_convert.png" alt="page d'accueil utilisateur connecté" title="page d'accueil utilisateur connecté"/>
+					</div>
+				</article>
+				<article class="card">
+					<div class="description">
+						<h2>Mission :</h2>
+						<p>- L'utilisateur une fois connecté et authentifié peut utiliser l'outil de conversion.</p>
+						<p>- Il a la possibilité d'éditer sa bio et son avatar.</p>
+						<p>- Il peut suspendre son compte.</p>
+						<p>- Il peut voir les images qu'il a lui-même convertit et les supprimer si il le souhaite.</p>
+						<p>- Il peut consulter les images des autres utilisateurs.</p>
+						<p>- Il peut consulter les images d'un utilisateur spécifique.</p>
+						<p>- Il peut contacter l'équipe par mail.</p>
+					</div>
+					<div class="img__container">
+						<img src="../assets/projets/POEC/convertit_user_profile.png" alt="page du profile utilisateur" title="page du profil utilisateur"/>
+					</div>
+				</article>
+				<article class="card">
+					<div class="description">
+						<h2>Back end :</h2>
+						<p>- Le routage se fait par les attributs dans les controlleurs.</p>
+						<p>- L'encodage du mot de passe se fait via un service et un EntityListener.</p>
+						<p>- Sécurisation des routes User par Role</p>
+						<p>- Utilisation des FormType.</p>
+						<p>- Envoi de mail avec Mailer.</p>
+						<p>- upload et conversion des fichiers en natif (sans bundle).</p>
+					</div>
+					<div class="img__container">
+						<img src="../assets/projets/POEC/convertit_bio_update.png" alt="update de la bio de l'utilisateur" title="update de la bio de l'utilisateur"/>
+					</div>
+				</article>
+				<article class="card">
+					<div class="description">
+						<h2>Front end :</h2>
+						<p>- Utilistaion de twig et passage de paramètres.</p>
+						<p>- Utilisation de Webpack Encore.</p>
+						<p>- Utilisation de bootstrap pour la mise en page.</p>
+						<p>- Utilisation de messages flash.</p>
+						<p>- Pagination en natif (sans utiliser le bundle knpPaginator).</p>
+						<p>- Géstion des assets et des paths avec Webpack Encore.</p>
+					</div>
+					<div class="img__container">
+						<img class="last" src="../assets/projets/POEC/convertit_gallery.png" alt="" title=""/>
+						<h3>Aller plus loin :
+							<br/>
+							En créant un dashboard administrateur.
+							<br/>
+							En créant une barre de recherche dans la gallery et dans la pages Users.
+							<br/>
+							En donnant la possibilité de "retravailler" l'image avant conversion (crop, resize, filters ...) ...
+						</h3>
+						<img class="last" src="../assets/projets/POEC/convertit_users.png" alt="" title=""/>
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer>
+			<h4>
+				Ce projet complet concluant la formation fut un vrai challenge.
+				<br/>
+				Partant de zéro en PHP, j'ai pû tout au long de cette formation progresser dans ma compréhension du langage, de la POO, du pattern MVC et du framework symfony ainsi que son environnement.
+				<br/>
+				Cette formation m'a permis d'aborder la puissance de SYMFONY et de son environnement, la gestion des Entities avec Doctrine, la création de Fixtures, de services.
+			</h4>
+		</footer>
+	</body>
+	<script src="https://kit.fontawesome.com/072d97feca.js" crossorigin="anonymous"></script>
+	<script src="convertit.js"></script>
+</html>

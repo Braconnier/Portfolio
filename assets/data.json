@@ -86,6 +86,20 @@
           "value": "Implémenter un stockage de données sécurisé en utilisant SQL"
         }
       ]
+    },
+    {
+      "name": "POEC PHP SYMFONY",
+      "description": "Formation PHP POO SYMFONY :",
+      "url": "https://github.com/Braconnier/P2-POEC-0922-convertit",
+      "localUrl": "./pages/convertit.html",
+      "constraints": "Aucune contrainte particulière dans cette formation, Le but est de se familiariser et d'apprendre la POO PHP et le framework Symfony",
+      "challenges": [
+        { "value": "Apprentissage du langage PHP" },
+        { "value": "Développement sous environnement LINUX (WSL)" },
+        { "value": "Apprentissage et approfondissement de la POO" },
+        { "value": "Apprentissage et approfonissement du pattern MVC" },
+        { "value": "Développer une application avec Symfony" }
+      ]
     }
   ]
 }
